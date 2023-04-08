@@ -7,7 +7,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'https://backendnico6.onrender.com/explab/';
+  expURL = 'https://backendnico5.onrender.com/explab/';
 
   constructor(private httpClient: HttpClient) { }
 

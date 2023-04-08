@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  expURL = 'https://backendnico6.onrender.com/educacion/';
+  expURL = 'https://backendnico5.onrender.com/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 

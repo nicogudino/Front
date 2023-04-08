@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'https://backendnico6.onrender.com/auth/';
+  authURL = 'https://backendnico5.onrender.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 

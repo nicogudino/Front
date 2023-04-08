@@ -7,7 +7,7 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'https://backendnico6.onrender.com/personas/';
+  URL = 'https://backendnico5.onrender.com/personas/';
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<persona[]>{
